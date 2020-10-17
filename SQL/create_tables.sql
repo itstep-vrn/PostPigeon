@@ -1,0 +1,7 @@
+﻿CREATE TABLE table_template
+(
+	id INT AUTO_INCREMENT PRIMARY KEY,
+	name VARCHAR(50) NOT NULL,
+	annotation TEXT NOT NULL,
+	link VARCHAR(255) NULL
+);
