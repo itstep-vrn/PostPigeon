@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PostPigeonWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Почтовый голубь" Height="450" Width="800">
     <Grid>
+        <ComboBox x:Name="select_Template" HorizontalAlignment="Left" Margin="370,125,0,0" VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </Window>

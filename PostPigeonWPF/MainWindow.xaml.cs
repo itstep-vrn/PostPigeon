@@ -23,6 +23,7 @@ namespace PostPigeonWPF
         public MainWindow()
         {
             InitializeComponent();
+            select_Template.ItemsSource = Buffer.GetName();
         }
     }
 }
